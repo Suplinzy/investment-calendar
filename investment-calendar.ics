@@ -1,0 +1,378 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Lin//Investment Calendar//CN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:投资日历
+X-WR-TIMEZONE:Asia/Shanghai
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+BEGIN:STANDARD
+DTSTART:19700101T000000
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:CONF_WIC_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261106
+SUMMARY:【会议】2026 世界互联网大会乌镇峰会
+CATEGORIES:会议展览
+DESCRIPTION:世界互联网大会乌镇峰会11月2-5日举办。聚焦AI
+ 治理、数据跨境与智能体应用，关注算力与网络安全主
+ 题催化。\n影响板块：AI治理、算力、网络安全\n数据来
+ 源：世界互联网大会组委会（11/2-5）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_ELECTION_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:【政策】美国中期选举投票日
+CATEGORIES:政策会议
+DESCRIPTION:美国中期选举投票日。众议院435席全部改选、参
+ 议院约34席改选。两院归属影响财政支出、关税与AI监管
+ 预期。当日美股正常交易。\n影响板块：黄金、军工、美
+ 元与美股波动\n数据来源：美国选举制度固定日程（偶数
+ 年11月第一个星期二，2026年为 11/3）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ER_AAPL_FY26Q4@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261103T060000
+DTEND;TZID=Asia/Shanghai:20261103T070000
+SUMMARY:【财报】苹果 FY26Q4 财报（已披露）
+CATEGORIES:公司财报
+DESCRIPTION:苹果 FY2026 第四季度财报及电话会，已披露：营
+ 收1144.77亿美元（同比+11.7%），iPhone收入575.83亿美元（+17.
+ 5%），大中华区175.39亿美元（+21.0%）。12月季度毛利率指
+ 引45%-46%。\n影响板块：果链、消费电子\n数据来源：苹果
+ 投资者关系（11/3 美股盘后，北京时间 11/3 06:00）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ER_QCOM_FY26Q4@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261104T050000
+DTEND;TZID=Asia/Shanghai:20261104T060000
+SUMMARY:【财报】高通 FY26Q4 及全年业绩
+CATEGORIES:公司财报
+DESCRIPTION:高通 FY2026 第四季度及全年业绩电话会。关注手
+ 机SoC需求、汽车与物联网增速、端侧AI芯片进展。\n影响
+ 板块：半导体、端侧AI、消费电子\n数据来源：高通投资
+ 者关系（11/4 美股盘后，北京时间 11/4 05:00）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CONF_CIIE_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261111
+SUMMARY:【会议】第九届中国国际进口博览会（上海）
+CATEGORIES:会议展览
+DESCRIPTION:进博会11月5-10日在上海举办。关注消费品、医疗
+ 器械展区签约与外企投资意向，观察外贸与外资预期。\n
+ 影响板块：跨境电商、消费、外贸\n数据来源：中国国际
+ 进口博览会组委会（11/5-10）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_NFP_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261106T213000
+DTEND;TZID=Asia/Shanghai:20261106T220000
+SUMMARY:【海外】美国10月非农就业报告 & 失业率
+CATEGORIES:海外宏观
+DESCRIPTION:美国劳工统计局（BLS）发布10月就业形势报告（E
+ mployment Situation）。关注新增非农就业人数、失业率及前
+ 值修正。\n影响板块：劳动力市场强弱、美联储政策预期
+ 、美股成长股、黄金、美元、汇率\n数据来源：BLS 官方
+ 发布日程（11/6 08:30 ET，冬令时换算北京时间 21:30）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_CPI_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261109T093000
+DTEND;TZID=Asia/Shanghai:20261109T100000
+SUMMARY:【国内】中国10月 CPI、PPI
+CATEGORIES:国内宏观
+DESCRIPTION:国家统计局发布居民消费价格指数（CPI）与工业
+ 生产者出厂价格指数（PPI）。\n影响板块：通胀水平、货
+ 币政策宽松空间、消费板块、周期品价格\n数据来源：国
+ 家统计局 2026 年主要统计信息发布日程（居民消费价格
+ 指数月度报告 11/9 09:30）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_TRADE_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261110T110000
+DTEND;TZID=Asia/Shanghai:20261110T113000
+SUMMARY:【国内】中国10月进出口（美元计）
+CATEGORIES:国内宏观
+DESCRIPTION:海关总署发布10月进出口统计快讯。关注对美出
+ 口增速、机电与汽车出口结构变化。\n影响板块：出口链
+ 、航运\n数据来源：海关总署月度发布日程（11/10）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_CPI_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261110T213000
+DTEND;TZID=Asia/Shanghai:20261110T220000
+SUMMARY:【海外】美国10月 CPI & 核心CPI
+CATEGORIES:海外宏观
+DESCRIPTION:美国劳工统计局发布10月消费者价格指数（CPI）
+ 与核心CPI。\n影响板块：核心通胀黏性、美联储降息路径
+ 、全球权益、黄金、贵金属、汇率\n数据来源：BLS 官方
+ 发布日程（11/10 08:30 ET，北京时间 21:30）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:MKT_US_VETERANS_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:【休市】美国退伍军人纪念日（债券市场休市）
+CATEGORIES:市场休市
+DESCRIPTION:退伍军人纪念日（Veterans Day），美股正常交易，
+ 美国债券市场休市。\n影响板块：美债市场\n数据来源：
+ 美国 2026 年市场休市安排（11/11）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_BEIGE_2026-11@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261111T230000
+DTEND;TZID=Asia/Shanghai:20261111T233000
+SUMMARY:【政策】美联储褐皮书
+CATEGORIES:政策会议
+DESCRIPTION:美联储发布全国经济状况褐皮书（Beige Book）。\n
+ 影响板块：经济景气观察、利率预期\n数据来源：美联储
+ 日程（11/11）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_CREDIT_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261112T093000
+DTEND;TZID=Asia/Shanghai:20261112T100000
+SUMMARY:【国内】中国10月金融数据（社融 / 新增贷款 / M1 / 
+ M2）
+CATEGORIES:国内宏观
+DESCRIPTION:央行发布10月社会融资规模、新增人民币贷款、M
+ 1/M2 货币供应。央行通常在每月 10-15 日窗口发布，此处
+ 为预计日期。\n影响板块：银行、宽信用、地产链\n数据
+ 来源：中国人民银行月度金融统计数据发布窗口（10-15 
+ 日，预计值，以官方公告为准）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_PPI_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261113T213000
+DTEND;TZID=Asia/Shanghai:20261113T220000
+SUMMARY:【海外】美国10月 PPI
+CATEGORIES:海外宏观
+DESCRIPTION:美国劳工统计局发布10月生产者价格指数（PPI）
+ 。\n影响板块：通胀传导、美联储政策、黄金、汇率\n数
+ 据来源：BLS 官方发布日程（11/13 08:30 ET，北京时间 21:30
+ ）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_HOUSE70_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261116T093000
+DTEND;TZID=Asia/Shanghai:20261116T100000
+SUMMARY:【国内】70个大中城市房价指数
+CATEGORIES:国内宏观
+DESCRIPTION:国家统计局发布70个大中城市商品住宅销售价格
+ 变动情况。\n影响板块：地产链\n数据来源：国家统计局 
+ 2026 年主要统计信息发布日程（11/16 09:30）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_ACTIVITY_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261116T100000
+DTEND;TZID=Asia/Shanghai:20261116T103000
+SUMMARY:【国内】中国10月工业增加值、社零、固定资产投
+ 资
+CATEGORIES:国内宏观
+DESCRIPTION:国家统计局发布规模以上工业增加值、社会消费
+ 品零售总额、固定资产投资月度数据。\n影响板块：消费
+ 、地产链、周期\n数据来源：国家统计局 2026 年主要统计
+ 信息发布日程（国民经济运行情况 11/16 10:00）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_RETAIL_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261117T213000
+DTEND;TZID=Asia/Shanghai:20261117T220000
+SUMMARY:【海外】美国10月零售销售
+CATEGORIES:海外宏观
+DESCRIPTION:美国商务部普查局发布10月零售销售数据。\n影
+ 响板块：美国消费韧性、美股消费板块、美元\n数据来源
+ ：美国商务部普查局（11/17 08:30 ET，北京时间 21:30）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CONF_APEC_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261120
+SUMMARY:【会议】2026 APEC 领导人非正式会议（深圳）
+CATEGORIES:会议展览
+DESCRIPTION:第三十三次 APEC 领导人非正式会议于11月18-19日
+ 在深圳举行，主题为「建设亚太共同体，促进共同繁荣
+ 」。聚焦亚太自贸区、互联互通、数字经济、AI治理。工
+ 商峰会同期（11/17-18）。\n影响板块：大湾区、外贸、数
+ 字经济、绿色基建、跨境电商、AI治理\n数据来源：APEC 
+ 官方日程（11/18-19 领导人会议，11/17-18 工商峰会）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_FOMC_MINUTES_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261119T030000
+DTEND;TZID=Asia/Shanghai:20261119T033000
+SUMMARY:【政策】美联储10月议息会议纪要
+CATEGORIES:政策会议
+DESCRIPTION:美联储发布10月FOMC会议纪要。关注委员对通胀黏
+ 性与后续利率路径的分歧，是12月议息会议前的关键线索
+ 。\n影响板块：美元、美债、全球风险偏好\n数据来源：
+ 美联储日程（11/18 14:00 ET，北京时间 11/19 03:00）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ER_NVDA_FY27Q3@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261119T042000
+DTEND;TZID=Asia/Shanghai:20261119T052000
+SUMMARY:【财报】英伟达 FY27Q3 财报（盘后）
+CATEGORIES:公司财报
+DESCRIPTION:英伟达公布 FY2027 第三季度财报并召开电话会。
+ 公司指引营收1080亿美元（±2%），毛利率74%，不含中国数
+ 据中心收入。关注数据中心需求与 Vera Rubin 量产节奏。\n
+ 影响板块：AI算力、半导体、芯片ETF、全球科技股情绪\n
+ 数据来源：英伟达投资者关系（11/18 美股盘后，北京时
+ 间 11/19 04:20）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_LPR_2026-11@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261120T091500
+DTEND;TZID=Asia/Shanghai:20261120T094500
+SUMMARY:【政策】中国11月 LPR 报价
+CATEGORIES:政策会议
+DESCRIPTION:中国人民银行授权全国银行间同业拆借中心公布
+ 贷款市场报价利率（LPR）。关注1年期与5年期以上是否调
+ 整。\n影响板块：银行息差、地产、按揭利率、实体融资
+ 成本\n数据来源：中国人民银行（11/20 09:15，financecalendar 
+ 已确认）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:US_PCE_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261125T213000
+DTEND;TZID=Asia/Shanghai:20261125T220000
+SUMMARY:【海外】美国10月 PCE 物价指数 & 三季度 GDP 二读
+CATEGORIES:海外宏观
+DESCRIPTION:美国经济分析局（BEA）发布10月PCE物价指数与个
+ 人收支，以及三季度GDP二次估计。PCE是美联储最看重的
+ 通胀指标。\n影响板块：经济增长韧性、核心通胀、全球
+ 风险偏好、出口链\n数据来源：BEA（11/25 08:30 ET，北京时
+ 间 21:30）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CONF_CHTF_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261129
+SUMMARY:【会议】第二十八届高交会（深圳）
+CATEGORIES:会议展览
+DESCRIPTION:中国国际高新技术成果交易会11月26-28日在深圳
+ 举办。聚焦AI、机器人、低空经济与新型显示，是年末科
+ 技主题的重要催化窗口。\n影响板块：机器人、低空经济
+ 、AI算力、新型显示\n数据来源：高交会官方（11/26-28，
+ 深圳）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:MKT_US_THANKSGIVING_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:【休市】美国感恩节：美股、美债全天休市
+CATEGORIES:市场休市
+DESCRIPTION:感恩节，纽约证券交易所、纳斯达克、美国债券
+ 市场全天休市。\n影响板块：美股、美债\n数据来源：NYSE
+  / Nasdaq 2026 年休市安排（11/26 感恩节）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CONF_GZAUTO_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261207
+SUMMARY:【会议】第二十四届广州国际车展
+CATEGORIES:会议展览
+DESCRIPTION:广州国际车展整车展11月27日-12月6日举办。关注
+ 新车周期、智驾配置、固态电池进展。\n影响板块：整车
+ 、智能驾驶、汽车零部件\n数据来源：广州国际车展官方
+ （11/27-12/6）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_INDPROFIT_2026-10@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261127T093000
+DTEND;TZID=Asia/Shanghai:20261127T100000
+SUMMARY:【国内】中国10月工业企业效益月度报告
+CATEGORIES:国内宏观
+DESCRIPTION:国家统计局发布规模以上工业企业利润数据。\n
+ 影响板块：工业企业盈利、周期板块\n数据来源：国家统
+ 计局 2026 年主要统计信息发布日程（11/27 09:30）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:MKT_US_THANKSGIVING_HALF_2026@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261127T223000
+DTEND;TZID=Asia/Shanghai:20261128T020000
+SUMMARY:【休市】感恩节翌日：美股提前3小时收盘
+CATEGORIES:市场休市
+DESCRIPTION:感恩节翌日，美股提前3小时收盘（美东 13:00 收
+ 盘，即北京时间 11/28 02:00）。假期流动性偏薄，易放大
+ 波动。\n影响板块：美股、流动性\n数据来源：Nasdaq 2026 
+ 年提前收盘安排（11/27 13:00 ET）
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:CN_PMI_2026-11@investment-calendar
+DTSTAMP:20261106T143418Z
+DTSTART;TZID=Asia/Shanghai:20261130T093000
+DTEND;TZID=Asia/Shanghai:20261130T100000
+SUMMARY:【国内】11月官方制造业 & 非制造业 PMI
+CATEGORIES:国内宏观
+DESCRIPTION:国家统计局发布11月中国采购经理指数。制造业
+ 与非制造业景气度，检验经济能否重回扩张区间。\n影响
+ 板块：顺周期制造、内需复苏、地产链\n数据来源：国家
+ 统计局 2026 年主要统计信息发布日程（采购经理指数月
+ 度报告 11/30 09:30）
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
